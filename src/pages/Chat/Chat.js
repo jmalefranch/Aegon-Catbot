@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./Chat.css";
 import userAvatar from "../../assets/images/user.png";
 import CAT_A from "../../assets/images/a.png";
@@ -121,7 +121,6 @@ const Chat = () => {
         console.log("No hay valores");
     }
   }
-  console.log("INTERACCIONES:", interactions);
 
   return (
     <div className="chatbot-chat-container">
