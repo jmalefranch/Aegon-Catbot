@@ -1,0 +1,35 @@
+.user-item-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.user-item-container label {
+  margin: 0px 10px 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  background: #ac92eb;
+  padding: 8px;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 7%;
+  font-weight: bold;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 0px 1px rgb(0 0 0 / 5%);
+}
+
+.user-item-container img {
+  height: 38px;
+  margin-right: 5px;
+}
+
+.user-item-messages label {
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.08);
+}
+
+.selector-container img {
+  height: 50px !important;
+}

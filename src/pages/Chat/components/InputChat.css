@@ -1,0 +1,40 @@
+.chatbot-chat-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+}
+
+.chatbot-chat-input-container input {
+  background-color: mintcream;
+  color: #432b51;
+  font-family: "Quicksand";
+  box-sizing: border-box;
+  border-radius: 25px;
+  width: 82%;
+  height: 35px;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  margin: auto;
+  outline: none;
+  border: 1px solid mintcream;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.06);
+}
+
+.chatbot-chat-input-container input::placeholder {
+  color: #a1b2e4;
+  font-size: 14px;
+}
+
+.chatbot-chat-input-container button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #432b51;
+  background: #432b51;
+  margin: auto;
+  background-image: url("../../../assets/images/telegram.svg");
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.16);
+}

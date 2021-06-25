@@ -1,0 +1,52 @@
+.cat-item-container {
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+.cat-item-container img {
+  height: 50px !important;
+}
+
+.cat-item-messages label {
+  margin: 0 0 5px 10px;
+  font-family: "Quicksand";
+  font-size: 14px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  max-width: 75%;
+  font-weight: normal;
+  box-sizing: border-box;
+  background: #3c207e;
+  font-weight: bold;
+}
+
+.cat-item-messages {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.img-container-cat {
+  width: 180px;
+  height: 180px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.16);
+}
+
+.img-container-cat img {
+  height: 180px !important;
+  width: 180px;
+  object-fit: contain;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
